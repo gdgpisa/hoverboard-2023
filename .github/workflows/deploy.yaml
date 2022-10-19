@@ -17,8 +17,7 @@ jobs:
       - run: npm run build
       - uses: docker://w9jds/firebase-action:master
         with:
-          args: deploy
+          args: deploy --debug  
         env:
           PROJECT_ID: devfest-pisa23
           GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEVFEST_PISA23 }}
-      - run: cat firebase-debug.log
