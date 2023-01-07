@@ -5,7 +5,7 @@ export const theme = css`
     --dark-primary-color: #24753a;
     --default-primary-color: #34a853;
     --focused-color: #311b92;
-    --light-primary-color: #d1c4e9;
+    --light-primary-color: #34a853;
     --text-primary-color: #fff;
     --accent-color: #ff5252;
     --primary-background-color: #fff;
@@ -37,8 +37,8 @@ export const theme = css`
     --font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, helvetica, arial,
       sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     --max-container-width: 1280px;
-    --primary-color-transparent: rgb(103 58 183 / 10%);
-    --primary-color-light: rgb(103 58 183 / 80%);
+    --primary-color-transparent: rgb(52 168 83 / 10%);
+    --primary-color-light: rgb(52 168 83 / 80%);
     --primary-color-white: #ede7f6;
 
     /* Labels */
