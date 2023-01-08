@@ -14,7 +14,7 @@
   "buyTicket": "Get a ticket",
   "signIn": "Sign in",
   "signOut": "Sign out",
-  "viewHighlights": "View Highlights",
+  "viewHighlights": "See the video recap",
   "offlineMessage": "You can still work offline.",
   "serviceWorkerInstalled": "App is now installed and available offline.",
   "serviceWorkerAvailable": "A new version of this app is available.",
@@ -122,13 +122,13 @@
     "callToAction": {
       "featuredSessions": {
         "description": "GDG DevFest Pisa brings together the world class experts in Android, Web and Cloud technologies to Pisa for 1 day, workshops and showcases.",
-        "label": "Explore featured session",
+        "label": "SEE THE FULL ANNOUNCEMENT",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },
       "howItWas": {
         "description": "TODO: talk about Devfest 2019",
-        "label": "TODO: talk about Devfest 2019",
-        "youtubeId": "TdpbgRgz6eE"
+        "label": "SEE THE VIDEO RECAP",
+        "youtubeId": "h5d-EOTWOOU"
       }
     },
     "statisticsBlock": {
