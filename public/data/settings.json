@@ -34,6 +34,11 @@
       "label": "Schedule"
     },
     {
+      "route": "location",
+      "permalink": "/location",
+      "label": "Location"
+    },
+    {
       "route": "team",
       "permalink": "/team",
       "label": "Team"
@@ -97,6 +102,7 @@
     "faq": {
       "title": "FAQs",
       "metaDescription": "Find you answer right here!",
+      "description": "Please find in this page, all the answers to the Frequently Asked Questions about DevFest Pisa 2023",
       "background": {
         "color": "#fff"
       },
@@ -113,6 +119,15 @@
     "notFound": {
       "title": "Not Found",
       "metaDescription": "Page not found",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "location": {
+      "title": "Location",
+      "metaDescription": "Please find directions and address of the venue on this page",
+      "description": "Please find directions and address of the venue on this page",
       "background": {
         "color": "#fff"
       },
