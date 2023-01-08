@@ -26,6 +26,8 @@
   "time": "Time",
   "faq": "/data/faq.md",
   "coc": "/data/coc.md",
+  "locationPage": "data/location.md",
+  "locationSource": "/data/location.md",
   "timezoneOffset": "-180",
   "loading": "Loading...",
   "footer": {
@@ -136,11 +138,11 @@
       },
       "days": {
         "label": "Speakers",
-        "number": "?"
+        "number": "20+"
       },
       "sessions": {
         "label": "Sessions",
-        "number": "?"
+        "number": "20+"
       },
       "tracks": {
         "label": "Tracks",
