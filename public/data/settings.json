@@ -139,24 +139,28 @@
   "socialNetwork": {
     "follow": [
       {
+        "name": "website",
+        "url": "https://gdgpisa.it/"
+      },
+      {
         "name": "meetup",
-        "url": "https://www.meetup.com/GDG-Lviv/events/244342635/"
+        "url": "https://www.meetup.com/it-IT/gdg-pisa/"
       },
       {
         "name": "facebook",
-        "url": "https://www.facebook.com/devfest.ukraine/"
+        "url": "https://it-it.facebook.com/gdgpisa/"
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/devfest_ukraine/"
+        "url": "https://twitter.com/gdgpisa"
       },
       {
         "name": "instagram",
-        "url": "https://www.instagram.com/devfestukraine"
+        "url": "https://www.instagram.com/gdgpisa/"
       },
       {
         "name": "youtube",
-        "url": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+        "url": "https://www.youtube.com/channel/UCpELmCo9iPDmZTyFLcb5YBw"
       }
     ],
     "share": [
@@ -170,7 +174,7 @@
       }
     ]
   },
-  "mailto": "devfest@gdg.org.ua",
+  "mailto": "pisagdg@gmail.com",
   "signInProviders": {
     "providersData": [
       {
