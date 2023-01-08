@@ -18,7 +18,7 @@ export class AboutBlock extends ThemedElement {
           padding-top: 64px;
           display: grid;
           grid-gap: 32px;
-          grid-template-columns: 1fr;
+          grid-template-columns: auto auto;
         }
 
         .statistics-block {
