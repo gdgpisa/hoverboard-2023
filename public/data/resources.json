@@ -11,7 +11,7 @@
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "Buy ticket",
+  "buyTicket": "Get a ticket",
   "signIn": "Sign in",
   "signOut": "Sign out",
   "viewHighlights": "View Highlights",
@@ -132,19 +132,19 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "900"
+        "number": "400+"
       },
       "days": {
-        "label": "Days",
-        "number": "2"
+        "label": "Speakers",
+        "number": "?"
       },
       "sessions": {
         "label": "Sessions",
-        "number": "50"
+        "number": "?"
       },
       "tracks": {
         "label": "Tracks",
-        "number": "4"
+        "number": "3"
       }
     }
   },
@@ -158,6 +158,10 @@
   "partnersBlock": {
     "title": "Partners",
     "button": "Become a partner",
+    "proposalit": "Read the Proposal 🇮🇹",
+    "proposaliturl": "https://docs.google.com/document/d/1POo8P5eO-uLcf2svUP_EMIHT-Mz1VecbOWxXwNAzPNo/edit?usp=sharing",
+    "proposalen": "Read the Proposal 🇬🇧",
+    "proposalenurl": "https://docs.google.com/document/d/1AuqmqwsetjDQnbc874YiliseQBG28wMtkniUK-7SckA/edit?usp=sharing",
     "form": {
       "title": "Become a partner!",
       "submitLabel": "Submit",

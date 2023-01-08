@@ -101,10 +101,26 @@ export class PartnersBlock extends ReduxMixin(PolymerElement) {
           </div>
         </template>
 
-        <paper-button class="cta-button animated icon-right" on-click="addPotentialPartner">
+        <paper-button primary class="cta-button animated icon-right" on-click="addPotentialPartner">
           <span>[[partnersBlock.button]]</span>
           <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
         </paper-button>
+
+        <a href="https://docs.google.com/document/d/1AuqmqwsetjDQnbc874YiliseQBG28wMtkniUK-7SckA/edit?usp=sharing" 
+        target="_blank" rel="noopener noreferrer">
+          <paper-button class="cta-button animated icon-right">
+            <span>[[partnersBlock.proposalen]]</span>
+            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+          </paper-button>
+        </a>
+        
+        <a href="https://docs.google.com/document/d/1POo8P5eO-uLcf2svUP_EMIHT-Mz1VecbOWxXwNAzPNo/edit?usp=sharing" 
+        target="_blank" rel="noopener noreferrer">
+          <paper-button class="cta-button animated icon-right">
+            <span>[[partnersBlock.proposalit]]</span>
+            <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+          </paper-button>
+
       </div>
     `;
   }
