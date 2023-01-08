@@ -118,15 +118,15 @@
     ]
   },
   "aboutBlock": {
-    "title": "About",
+    "title": "DevFest Pisa is coming back in town in 2023!",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Pisa brings together the world class experts in Android, Web and Cloud technologies to Pisa for 1 day, workshops and showcases.",
-        "label": "SEE THE FULL ANNOUNCEMENT",
+        "description": "GDG Pisa is happy to announce that DevFest Pisa is coming back! You can enjoy a one-day conference all about Android, Web, Cloud and Google technologies in the hearth of Tuscany.",
+        "label": "READ THE FULL ANNOUNCEMENT",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },
       "howItWas": {
-        "description": "TODO: talk about Devfest 2019",
+        "description": "DevFest Pisa 2019 was a just awesome! Check out the video recap and make sure you don't miss it this year!",
         "label": "SEE THE VIDEO RECAP",
         "youtubeId": "h5d-EOTWOOU"
       }
