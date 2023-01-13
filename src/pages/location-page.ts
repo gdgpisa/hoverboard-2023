@@ -8,8 +8,8 @@ import { updateMetadata } from '../utils/metadata';
 
 @customElement('location-page')
 export class LocationPage extends PolymerElement {
-    static get template() {
-        return html`
+  static get template() {
+    return html`
       <style>
         :host {
           display: block;
@@ -22,15 +22,15 @@ export class LocationPage extends PolymerElement {
 
       <footer-block></footer-block>
     `;
-    }
+  }
 
-    private heroSettings = heroSettings.location;
+  private heroSettings = heroSettings.location;
 
-    @property({ type: String })
-    source = locationPage;
+  @property({ type: String })
+  source = locationPage;
 
-    override connectedCallback() {
-        super.connectedCallback();
-        updateMetadata(this.heroSettings.title, this.heroSettings.metaDescription);
-    }
+  override connectedCallback() {
+    super.connectedCallback();
+    updateMetadata(this.heroSettings.title, this.heroSettings.metaDescription);
+  }
 }
