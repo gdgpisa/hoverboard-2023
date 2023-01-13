@@ -1,4 +1,5 @@
 ## General
+
 We know that you could have some questions so we prepared for you a list of **FAQs** that may can help you 💪
 
 Anyway we are alway open to solve any other doubt you could have, feel free to [contact us](mailto:pisagdg@gmail.com) in that case.
@@ -41,7 +42,7 @@ No, the only valid tickets for eventbrite are the one [available on Eventbrite](
 
 ### What should I carry on to the conference?
 
-**Your ticket**. That's the only necessary thing you shouldn't forget. If you're attending one of our Workshops, the speakers will let you know if you need to carry on your laptop or not. 
+**Your ticket**. That's the only necessary thing you shouldn't forget. If you're attending one of our Workshops, the speakers will let you know if you need to carry on your laptop or not.
 
 ### Will I get food/lunch at the DevFest?
 
@@ -55,8 +56,10 @@ Yes, we have some swags for all the participants + some giveaways to give as a r
 
 No, we are not recording/live-streaming the sessions.
 
-### What is the Job Wall?   
-The job wall is a pin board where you're free to post your job openings. Rules for the Job wall are here: [Introducing the Job Wall](/blog/posts/introducing-the-job-wall/).   
+### What is the Job Wall?
 
-### What is the Beer Party?    
+The job wall is a pin board where you're free to post your job openings. Rules for the Job wall are here: [Introducing the Job Wall](/blog/posts/introducing-the-job-wall/).
+
+### What is the Beer Party?
+
 The beer party is a party event we organized for the DevFest Pisa attendees. You're all invited. It will be at "Lo Spaventapasseri", all the details are here: [There Will Be No DevFest Without A Networking Beer!](http://2019.devfest.gdgpisa.it/blog/posts/there-will-be-no-devfest-without-networking-beer/)
