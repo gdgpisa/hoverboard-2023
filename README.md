@@ -5,23 +5,23 @@
 :zap: [Live Website](https://devfest.gdgpisa.it/)
 🤝 based on [Project Hoverboard](https://github.com/gdg-x/hoverboard)
 
-### Deploying
+## Deploying
 
 To contribute to the website, you don't need to clone the repository. The repository is integrated with TravisCI to make sure that the website is re-deployed **whenever there is a new commit**.
 
-### Setup the project
+## Setup the project
 
 :book: [Full documentation](/docs/).
 
 Install Node.JS dependencies with:
 
-```
+```bash
 npm install
 ```
 
 Then start the development server with
 
-```
+```bash
 npm run start
 ```
 
@@ -29,26 +29,26 @@ This command serves the app at `http://localhost:3000` and provides basic URL ro
 
 :book: Read more in [setup docs](/docs/tutorials/set-up.md).
 
-### Build Locally
+## Build Locally
 
 This command performs HTML, CSS, and JS minification on the application
 dependencies, and generates a service-worker.js file with code to pre-cache the
 dependencies based on the entrypoint and fragments specified in `polymer.json`.
 The minified files are output to the `build`.
 
-```
+```bash
 npm run build
 ```
 
 :book: Read more in [deploy docs](/docs/tutorials/deploy.md).
 
-### Acknowledgment
+## Acknowledgment
 
 Website based on [Project Hoverboard](https://github.com/gdg-x/hoverboard), template brought by [Oleh Zasadnyy](https://plus.google.com/+OlehZasadnyy)
 from [GDG Lviv](http://lviv.gdg.org.ua/). To see the original README.md file just click [here](README_OG.md).
 
 > _Do you :heart: it?_ Show your support - please, [star](https://github.com/gdg-x/hoverboard) the project.
 
-### License
+## License
 
 Project is published under the [MIT license](https://github.com/gdg-x/hoverboard/blob/master/LICENSE.md).
