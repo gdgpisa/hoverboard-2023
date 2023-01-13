@@ -169,7 +169,7 @@ const ROUTES: Route[] = [
     component: 'location-page',
     action: async () => {
       await import('./pages/location-page.js');
-    }
+    },
   },
   {
     path: '(.*)',
