@@ -16,7 +16,7 @@ beforeAll(async () => {
   await setup({
     command: 'npx firebase emulators:start --only firestore',
     launchTimeout: 30000,
-    port: 8080,
+    port: 28080,
     usedPortAction: 'error',
   });
 }, 30000);
@@ -35,7 +35,7 @@ export const setupApp = async ({ userId, data }: SetupApp = {}) => {
   const config: TestEnvironmentConfig = {
     projectId,
     firestore: {
-      port: 8080,
+      port: 28080,
       host: 'localhost',
     },
   };
