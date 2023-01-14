@@ -36,7 +36,7 @@ export const theme = css`
       0 4px 5px 0 rgb(103 58 183 / 40%), 0 2px 9px 0 rgb(103 58 183 / 40%);
     --font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, helvetica, arial,
       sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-    --font-family-highlight: "Product Sans", roboto, arial, sans-serif, -apple-system;
+    --font-family-highlight: 'Product Sans', roboto, arial, sans-serif, -apple-system;
     --max-container-width: 1280px;
     --primary-color-transparent: rgb(52 168 83 / 10%);
     --primary-color-light: rgb(52 168 83 / 80%);
