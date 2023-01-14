@@ -8,7 +8,7 @@ import '../components/hero/hero-block';
 import { HeroBlock } from '../components/hero/hero-block';
 import '../elements/about-organizer-block';
 import '../elements/featured-videos';
-import '../elements/fork-me-block';
+import '../elements/call-for-paper-block';
 import '../elements/gallery-block';
 import '../elements/latest-posts-block';
 import '../elements/map-block';
@@ -246,12 +246,8 @@ export class HomePage extends ReduxMixin(PolymerElement) {
           </div>
         </div>
       </hero-block>
-      <template is="dom-if" if="{{showForkMeBlock}}">
-        <fork-me-block></fork-me-block>
-      </template>
       <about-block></about-block>
-      <speakers-block></speakers-block>
-      <subscribe-block></subscribe-block>
+      <call-for-paper-block></call-for-paper-block>
       <tickets-block id="tickets-block"></tickets-block>
       <gallery-block></gallery-block>
       <about-organizer-block></about-organizer-block>
