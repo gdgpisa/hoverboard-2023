@@ -131,16 +131,16 @@ export class GalleryBlock extends ReduxMixin(PolymerElement) {
       </style>
 
       <div class="photos-grid">
+        <template is="dom-repeat" items="[[gallery.data]]" as="photo">
+          <lazy-image class="grid-item" src="[[photo.url]]" alt="gallery photo"></lazy-image>
+        </template>
+
         <template is="dom-if" if="[[pending]]">
           <p>Loading...</p>
         </template>
 
         <template is="dom-if" if="[[failure]]">
           <p>Error loading gallery.</p>
-        </template>
-
-        <template is="dom-repeat" items="[[gallery.data]]" as="photo">
-          <lazy-image class="grid-item" src="[[photo.url]]" alt="gallery photo"></lazy-image>
         </template>
 
         <template is="dom-if" if="[[success]]">
