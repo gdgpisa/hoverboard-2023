@@ -68,6 +68,7 @@ export class BlogListPage extends ReduxMixin(PolymerElement) {
 
         .title {
           line-height: 1.2;
+          font-family: var(--font-family-highlight);
         }
 
         .description {
