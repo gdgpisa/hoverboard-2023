@@ -141,6 +141,22 @@
     },
     "description": "Directly in the center of the beautiful Pisa, just a few meters next to the University's Computer Science Department."
   },
+  "mediaQueries": {
+    "xs": {
+      "max": "639px"
+    },
+    "sm": {
+      "min": "640px",
+      "max": "811px"
+    },
+    "md": {
+      "min": "812px",
+      "max": "1023px"
+    },
+    "lg": {
+      "min": "1024px"
+    }
+  },
   "socialNetwork": {
     "follow": [
       {
