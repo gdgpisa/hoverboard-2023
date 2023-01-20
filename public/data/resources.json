@@ -1,7 +1,7 @@
 {
   "title": "GDG Pisa DevFest 2023",
   "description": "Join the DevFest Pisa, a tech conference carefully crafted for you by the GDG Pisa! A 100% community based event, all about Android, Web, Cloud and more!",
-  "image": "images/social-share.jpg",
+  "image": "/images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
   "dates": "April 1, 2023",
   "share": "Share",
@@ -123,7 +123,7 @@
         "link": "https://2023.devfest.gdgpisa.it/blog/c4p"
       },
       "howItWas": {
-        "description": "DevFest Pisa 2019 was a just awesome! Check out the video recap and make sure you don't miss it this year!",
+        "description": "DevFest Pisa 2019 was awesome! Check out the video recap and make sure you don't miss it this year!",
         "label": "SEE THE VIDEO RECAP",
         "youtubeId": "h5d-EOTWOOU"
       }
@@ -236,7 +236,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Pisa](https://gdgpisa.it/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "Google is known all around the world. Everyone is 'googling', checking on 'Maps' and communicating in 'Gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Pisa](https://gdgpisa.it/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"
@@ -299,8 +299,8 @@
     "image": "/images/team.jpg",
     "blocks": [
       {
-        "title": "Organizer",
-        "description": "<a href='https://gdgpisa.it' target='_blank'>GDG Pisa</a> with support from Google, italian GDGs, and our Sponsor",
+        "title": "Organizers",
+        "description": "<a href='https://gdgpisa.it' target='_blank'>GDG Pisa</a> with support from Google, italian GDGs, and our Sponsors.",
         "callToAction": {
           "label": "Open team page",
           "link": "/team"
