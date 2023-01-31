@@ -78,6 +78,11 @@
           "name": "DevFest Pisa 2019",
           "url": "https://2019.devfest.gdgpisa.it/",
           "newTab": true
+        },
+        {
+          "name": "DevFest Pisa 2020",
+          "url": "https://2020.devfest.gdgpisa.it/",
+          "newTab": true
         }
       ]
     },
