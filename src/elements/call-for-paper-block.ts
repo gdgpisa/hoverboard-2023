@@ -26,9 +26,9 @@ export class CallForPaperBlock extends PolymerElement {
       <div class="container container-narrow">
         <h1 class="container-title">Call for paper is open! 📣</h1>
         <p>
-          Our Call for Paper is open! We are looking for speakers willing to share their knowledge and
-          experience with the community. If you have something to share, submit your talk proposal
-          now! The deadline is on the 31st of January.
+          Our Call for Paper is open! We are looking for speakers willing to share their knowledge
+          and experience with the community. If you have something to share, submit your talk
+          proposal now! The deadline is on the 31st of January.
         </p>
         <a href="https://sessionize.com/devfest-pisa-2023">
           <div class="cta-button">
