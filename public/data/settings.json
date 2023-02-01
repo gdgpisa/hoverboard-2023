@@ -208,9 +208,7 @@
         "url": "https://accounts.google.com"
       }
     ],
-    "allowedProvidersUrl": [
-      "https://accounts.google.com"
-    ]
+    "allowedProvidersUrl": ["https://accounts.google.com"]
   },
   "contentLoaders": {
     "schedule": {
