@@ -26,8 +26,8 @@ export class CallForPaperBlock extends PolymerElement {
       <div class="container container-narrow">
         <h1 class="container-title">Call for paper is closed! 🙅‍♀️</h1>
         <p>
-          Our Call for Paper is now closed! Hold tight, we'll be announcing the
-          final agenda soon! In the meanwhile we collected some statistics about our C4P for you.
+          Our Call for Paper is now closed! Hold tight, we'll be announcing the final agenda soon!
+          In the meanwhile we collected some statistics about our C4P for you.
         </p>
         <a href="/blog/closing-the-c4p">
           <div class="cta-button">
