@@ -24,16 +24,15 @@ export class CallForPaperBlock extends PolymerElement {
       </style>
 
       <div class="container container-narrow">
-        <h1 class="container-title">Call for paper is open! 📣</h1>
+        <h1 class="container-title">Call for paper is closed! 🙅‍♀️</h1>
         <p>
-          Our Call for Paper is open! We are looking for speakers willing to share their knowledge and
-          experience with the community. If you have something to share, submit your talk proposal
-          now! The deadline is on the 31st of January.
+          Our Call for Paper is now closed! Hold tight, we'll be announcing the final agenda soon!
+          In the meanwhile we collected some statistics about our C4P for you.
         </p>
-        <a href="https://sessionize.com/devfest-pisa-2023">
+        <a href="/blog/closing-the-c4p">
           <div class="cta-button">
             <paper-button primary invert class="icon-right">
-              <span class="cta-label">Submit your Talk!</span>
+              <span class="cta-label">Read the blogpost</span>
             </paper-button>
           </div>
         </a>
