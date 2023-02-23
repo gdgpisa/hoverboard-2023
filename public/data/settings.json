@@ -24,6 +24,11 @@
       "label": "Home"
     },
     {
+      "route": "blog",
+      "permalink": "/blog",
+      "label": "Blog"
+    },
+    {
       "route": "location",
       "permalink": "/location",
       "label": "Location"
@@ -32,11 +37,6 @@
       "route": "team",
       "permalink": "/team",
       "label": "Team"
-    },
-    {
-      "route": "blog",
-      "permalink": "/blog",
-      "label": "Blog"
     }
   ],
   "heroSettings": {
