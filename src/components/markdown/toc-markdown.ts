@@ -12,7 +12,6 @@ type Tree = {
 
 @customElement('toc-markdown')
 export class TocMarkdown extends Markdown {
-  
   @property({ type: Boolean })
   private toc = false;
 
