@@ -1,4 +1,5 @@
 import { css, html } from 'lit';
+import { property } from 'lit/decorators.js';
 import { customElement } from 'lit/decorators.js';
 import { scrollToElement } from '../../utils/scrolling';
 import { Markdown } from './base';
@@ -11,6 +12,10 @@ type Tree = {
 
 @customElement('toc-markdown')
 export class TocMarkdown extends Markdown {
+  
+  @property({ type: Boolean })
+  private toc = false;
+
   static override get styles() {
     return [
       ...super.styles,
@@ -122,11 +127,18 @@ export class TocMarkdown extends Markdown {
     `;
   }
 
-  private renderHeader(headerId: string, _: string[]) {
+  private renderHeader(headerId: string, subheaderIds: string[]) {
     const header = this.headers.find((header) => header.id === headerId);
-    return html`
-      
-    `;
+    if (this.toc === true) {
+      return html`
+        <div class="col">
+          ${header?.textContent ?? headerId}
+          ${subheaderIds.map((subheaderId) => this.renderSubheader(subheaderId))}
+        </div>
+      `;
+    } else {
+      return html``;
+    }
   }
 
   private get renderToc() {

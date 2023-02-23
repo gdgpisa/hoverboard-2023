@@ -14,6 +14,9 @@ export class RemoteMarkDown extends ThemedElement {
   @state()
   state: State = new Initialized();
 
+  @property({ type: Boolean })
+  toc: boolean = false;
+
   override render() {
     return html`${this.view(this.state)}`;
   }
@@ -23,7 +26,13 @@ export class RemoteMarkDown extends ThemedElement {
       () => html``,
       () => html`Loading...`,
       () => html`Error loading content`,
-      (data) => html`<toc-markdown content="${data}"></toc-markdown>`
+      (data) => {
+        if (this.toc) {
+          return html`<toc-markdown toc content="${data}"></toc-markdown>`
+        } else {
+          return html`<toc-markdown content="${data}"></toc-markdown>`
+        }
+      }
     );
   }
 
