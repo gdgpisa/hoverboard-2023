@@ -1,10 +1,10 @@
-## How to get here
+## How to get there 🚶‍♂️
 
 The conference will take place at the **University of Pisa** in the **Polo Fibonacci**. Pisa is a small town, and you can easily walk around or rely on public transportation if you're coming from far away.
 
 The address of the venue is: **Largo Bruno Pontecorvo, 3, 56127 Pisa PI**
 
-### **By train** 🚄
+## By train 🚄
 
 Pisa's railway station (Pisa Centrale) is directly connected with Turin, Rome, Genova and Milan. There are frequent connections with the Florence main station (Firenze Santa Maria Novella) that you can reach with a high-speed train (Freccia Rossa).
 
@@ -17,7 +17,7 @@ To reach the venue, you can take the city bus number 4 and get off at the bus st
 
 As an alternative, the Department is at walking distance from the railway station (approximately 20-30 minutes).
 
-### **By car** 🚗
+## By car 🚗
 
 Pisa is near the intersection of two highways: A12 north-south (Genova - Rosignano) and A11 east-west (Pisa - Florence).
 
@@ -25,7 +25,7 @@ Pisa is a _small town_ with several pedestrian areas (with access control camera
 
 The nearest free parking to the venue is the [Park Pratale](https://goo.gl/maps/1xpJnXVLowJ2) (15 minutes walk) or the [Park Pietrasantina](https://goo.gl/maps/Cbi9aZy5qi92) (30 minutes walk).
 
-### **By plane** ✈️
+## By plane ✈️
 
 Pisa has an international airport with daily flights to London and Munich, as well as to Rome, Milan, and other important Italian cities.
 

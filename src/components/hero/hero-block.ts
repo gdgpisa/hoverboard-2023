@@ -67,6 +67,7 @@ export class HeroBlock extends ThemedElement {
         div ::slotted(.hero-title) {
           margin: 30px 0;
           font-size: 40px;
+          font-family: var(--font-family-highlight);
         }
 
         div ::slotted(.hero-description) {

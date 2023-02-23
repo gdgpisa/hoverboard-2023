@@ -122,13 +122,10 @@ export class TocMarkdown extends Markdown {
     `;
   }
 
-  private renderHeader(headerId: string, subheaderIds: string[]) {
+  private renderHeader(headerId: string, _: string[]) {
     const header = this.headers.find((header) => header.id === headerId);
     return html`
-      <div class="col">
-        ${header?.textContent ?? headerId}
-        ${subheaderIds.map((subheaderId) => this.renderSubheader(subheaderId))}
-      </div>
+      
     `;
   }
 

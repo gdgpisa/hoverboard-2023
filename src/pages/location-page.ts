@@ -18,7 +18,7 @@ export class LocationPage extends PolymerElement {
 
       <simple-hero page="location"></simple-hero>
 
-      <remote-markdown toc path="[[source]]"></remote-markdown>
+      <remote-markdown path="[[source]]"></remote-markdown>
 
       <footer-block></footer-block>
     `;
