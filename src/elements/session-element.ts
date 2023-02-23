@@ -64,7 +64,7 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
 
         .language {
           margin-left: 8px;
-          font-size: 12px;
+          font-size: 18px;
           text-transform: uppercase;
           color: var(--secondary-text-color);
         }
@@ -175,7 +175,7 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
               <div class="session-description">[[summary]]</div>
             </text-truncate>
           </div>
-          <span class="language">[[slice(session.language, 2)]]</span>
+          <span class="language">[[session.languageFlag]]</span>
         </div>
 
         <div class="session-content" flex layout horizontal justified>
