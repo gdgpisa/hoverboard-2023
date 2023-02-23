@@ -34,6 +34,11 @@
       "label": "Location"
     },
     {
+      "route": "faq",
+      "permalink": "/faq",
+      "label": "Faq"
+    },
+    {
       "route": "team",
       "permalink": "/team",
       "label": "Team"

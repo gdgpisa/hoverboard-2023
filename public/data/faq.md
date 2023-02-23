@@ -2,7 +2,7 @@
 
 We know that you could have some questions so we prepared for you a list of **FAQs** that may can help you 💪
 
-Anyway we are alway open to solve any other doubt you could have, feel free to [contact us](mailto:pisagdg@gmail.com) in that case.
+Anyway we are alway open to solve any other doubt you could have, feel free to [contact us](mailto:pisagdg+devfest@gmail.com) in that case.
 
 ### How do I get there?
 
@@ -14,7 +14,7 @@ Yes, participation to the DevFest is **free**, but registration is **mandatory**
 
 ### I can't attend the DevFest, what should I do?
 
-If you **can't attend** we kindly ask you to **cancel your order** via Eventbrite, or either send us an email (we can do it for you). <!--The event is currently Sold-out and we have a lot of people in the waiting list.-->You will free-up a spot for someone else :)
+If you **can't attend** we kindly ask you to **cancel your order** via the GDG platform, or either send us an email (we can do it for you). <!--The event is currently Sold-out and we have a lot of people in the waiting list.--> You will free-up a spot for someone else :)
 
 ### Do I need to print my tickets?
 
@@ -38,7 +38,7 @@ No, as written in the workshop description, you need a DevFest ticket to join al
 
 ### I registered on meetup.com. Is that valid as a ticket?
 
-No, the only valid tickets for eventbrite are the one [available on Eventbrite](http://bit.ly/dfpi19-tickets).
+No, the only valid tickets for eventbrite are the one [available on the GDG platform](https://gdg.community.dev/events/details/google-gdg-pisa-presents-gdg-iwd-devfest-pisa-2023/).
 
 ### What should I carry on to the conference?
 
@@ -56,10 +56,10 @@ Yes, we have some swags for all the participants + some giveaways to give as a r
 
 No, we are not recording/live-streaming the sessions.
 
-### What is the Job Wall?
+<!-- ### What is the Job Wall? -->
 
-The job wall is a pin board where you're free to post your job openings. Rules for the Job wall are here: [Introducing the Job Wall](/blog/posts/introducing-the-job-wall/).
+<!-- The job wall is a pin board where you're free to post your job openings. Rules for the Job wall are here: [Introducing the Job Wall](/blog/posts/introducing-the-job-wall/). -->
 
-### What is the Beer Party?
+<!-- ### What is the Beer Party? -->
 
-The beer party is a party event we organized for the DevFest Pisa attendees. You're all invited. It will be at "Lo Spaventapasseri", all the details are here: [There Will Be No DevFest Without A Networking Beer!](http://2019.devfest.gdgpisa.it/blog/posts/there-will-be-no-devfest-without-networking-beer/)
+<!-- The beer party is a party event we organized for the DevFest Pisa attendees. You're all invited. It will be at "Lo Spaventapasseri", all the details are here: [There Will Be No DevFest Without A Networking Beer!](http://2019.devfest.gdgpisa.it/blog/posts/there-will-be-no-devfest-without-networking-beer/) -->
