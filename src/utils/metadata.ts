@@ -1,4 +1,6 @@
 import { updateMetadata as pwaUpdateMetadata } from 'pwa-helpers/metadata.js';
+import { setMetaTag as pwaSetMetaTag } from 'pwa-helpers/metadata.js';
+
 import { image, title as siteTitle } from './data';
 
 export enum INCLUDE_SITE_TITLE {
@@ -15,9 +17,10 @@ export const updateImageMetadata = (title: string, description: string, data: Im
   pwaUpdateMetadata({
     title: `${title} | ${siteTitle}`,
     description,
-    image: data.image,
+    image: 'https://devfest.gdgpisa.it' + data.image,
     imageAlt: data.imageAlt,
   });
+  pwaSetMetaTag('name', 'twitter:image', 'https://devfest.gdgpisa.it' + data.image);
 };
 
 export const updateMetadata = (
@@ -29,7 +32,8 @@ export const updateMetadata = (
   pwaUpdateMetadata({
     title: fullTitle,
     description,
-    image,
+    image: 'https://devfest.gdgpisa.it' + image,
     imageAlt: siteTitle,
   });
+  pwaSetMetaTag('name', 'twitter:image', 'https://devfest.gdgpisa.it' + image);
 };
