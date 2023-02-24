@@ -171,9 +171,6 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
         <div class="session-header" layout horizontal justified>
           <div flex>
             <h3 class="session-title">[[session.title]]</h3>
-            <text-truncate lines="3">
-              <div class="session-description">[[summary]]</div>
-            </text-truncate>
           </div>
           <span class="language">[[session.languageFlag]]</span>
         </div>
