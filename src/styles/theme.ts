@@ -51,9 +51,14 @@ export const theme = css`
     --general: #9e9e9e;
     --android: #78c257;
     --web: #2196f3;
+    --firebase: #ff8a65;
     --cloud: #3f51b5;
-    --community: #e91e63;
-    --design: #e91e63;
+    --accessibility: #ff0000;
+    --flutter: #0553b1;
+    --machine-learning: #ffa800;
+    --soft-skills: #e91e63;
+    --dei: #e91e63;
+    --go: #00add8;
   }
 
   *,
