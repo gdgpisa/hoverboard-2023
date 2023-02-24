@@ -104,7 +104,7 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
           color: var(--secondary-text-color);
         }
 
-        .session-meta .extra-ticket{
+        .session-meta .extra-ticket {
           font-size: 14px;
           font-weight: bold;
           color: var(--accent-color);
@@ -184,7 +184,9 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
 
         <div class="session-content" flex layout horizontal justified>
           <div class="session-meta">
-            <div class="extra-ticket" hidden$="[[!session.ticketUrl]]">Extra Registration Needed</div>
+            <div class="extra-ticket" hidden$="[[!session.ticketUrl]]">
+              Extra Registration Needed
+            </div>
             <div hidden$="[[!session.complexity]]">[[session.complexity]]</div>
           </div>
           <div class="session-actions">

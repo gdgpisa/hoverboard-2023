@@ -271,16 +271,18 @@ export class SessionPage extends ReduxMixin(PolymerElement) {
             <iron-icon icon="hoverboard:video"></iron-icon>
             [[sessionDetails.viewVideo]]
           </div>
-          <div
-            class="action"
-            hidden$="[[!session.ticketUrl]]"
-            layout horizontal center
-          >
+          <div class="action" hidden$="[[!session.ticketUrl]]" layout horizontal center>
             <a hidden$="[[session.soldOut]]" href="[[session.ticketUrl]]">
-              <paper-button primary><iron-icon icon="hoverboard:ticket"></iron-icon>Register to this workshop</paper-button>
+              <paper-button primary>
+                <iron-icon icon="hoverboard:ticket"></iron-icon>
+                Register to this workshop
+              </paper-button>
             </a>
             <a hidden$="[[!session.soldOut]]" href="[[session.ticketUrl]]">
-              <paper-button inverse><iron-icon icon="hoverboard:ticket"></iron-icon>Join the waiting list</paper-button>
+              <paper-button inverse>
+                <iron-icon icon="hoverboard:ticket"></iron-icon>
+                Join the waiting list
+              </paper-button>
             </a>
           </div>
         </div>

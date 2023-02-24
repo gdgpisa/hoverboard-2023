@@ -13,7 +13,7 @@ export class DisclaimerBlock extends PolymerElement {
         :host {
           display: flex;
           width: 100%;
-          background: #F57C00;
+          background: #f57c00;
           color: var(--text-primary-color);
           padding: 16px 0;
         }
@@ -26,7 +26,8 @@ export class DisclaimerBlock extends PolymerElement {
       <div class="container container-narrow">
         <h1 class="container-title">🚧 The schedule is not finalized (yet)!</h1>
         <p>
-          We're still publishing talks and speakers and all the sessions will probably be moved around :)
+          We're still publishing talks and speakers and all the sessions will probably be moved
+          around :)
         </p>
       </div>
     `;

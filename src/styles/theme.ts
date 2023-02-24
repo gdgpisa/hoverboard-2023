@@ -53,7 +53,7 @@ export const theme = css`
     --web: #2196f3;
     --firebase: #ff8a65;
     --cloud: #3f51b5;
-    --accessibility: #ff0000;
+    --accessibility: #f00;
     --flutter: #0553b1;
     --machine-learning: #ffa800;
     --soft-skills: #e91e63;
