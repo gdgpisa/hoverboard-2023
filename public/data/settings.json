@@ -29,6 +29,16 @@
       "label": "Blog"
     },
     {
+      "route": "schedule",
+      "permalink": "/schedule",
+      "label": "Schedule"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers",
+      "label": "Speakers"
+    },
+    {
       "route": "location",
       "permalink": "/location",
       "label": "Location"
