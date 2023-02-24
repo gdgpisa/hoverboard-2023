@@ -171,6 +171,7 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
         layout
         vertical
         relative
+        style="background-color: [[session.backgroundColor]]"
       >
         <iron-icon icon="hoverboard:[[session.icon]]" class="session-icon"></iron-icon>
 
