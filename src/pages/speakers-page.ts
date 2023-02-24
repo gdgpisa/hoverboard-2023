@@ -109,7 +109,7 @@ export class SpeakersPage extends ReduxMixin(PolymerElement) {
 
         .company-logo {
           --lazy-image-width: 100%;
-          --lazy-image-height: 16px;
+          --lazy-image-height: 24px;
           --lazy-image-fit: contain;
           width: var(--lazy-image-width);
           height: var(--lazy-image-height);
