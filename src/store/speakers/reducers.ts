@@ -19,7 +19,8 @@ export const speakersReducer = (
       return new Failure(action.payload);
 
     case FETCH_SPEAKERS_SUCCESS:
-      return new Success(action.payload);
+      let sortedSpeakers = action.payload.sort((s1, s2) => s1.order - s2.order);
+      return new Success(sortedSpeakers);
 
     default:
       return state;

@@ -13,7 +13,8 @@ export class CallForPaperBlock extends PolymerElement {
         :host {
           display: flex;
           width: 100%;
-          background: var(--default-primary-color);
+          // background: var(--default-primary-color);
+          background: #f57c00;
           color: var(--text-primary-color);
           padding: 16px 0;
         }
@@ -24,15 +25,15 @@ export class CallForPaperBlock extends PolymerElement {
       </style>
 
       <div class="container container-narrow">
-        <h1 class="container-title">Call for paper is closed! 🙅‍♀️</h1>
+        <h1 class="container-title">🚧 Part of the schedule is live!</h1>
         <p>
-          Our Call for Paper is now closed! Hold tight, we'll be announcing the final agenda soon!
-          In the meanwhile we collected some statistics about our C4P for you.
+          We're publishing the schedule over the next days. It's not finalized yet, but you can
+          check it out already:
         </p>
-        <a href="/blog/closing-the-c4p">
+        <a href="/schedule">
           <div class="cta-button">
             <paper-button primary invert class="icon-right">
-              <span class="cta-label">Read the blogpost</span>
+              <span class="cta-label">Checkout the schedule</span>
             </paper-button>
           </div>
         </a>

@@ -1,4 +1,4 @@
-## THe CFP is Closed 🙅‍♀️
+## The CFP is Closed 🙅‍♀️
 
 We're excited to announce that the Call for Papers for the DevFest Pisa 2023 is officially closed!
 
