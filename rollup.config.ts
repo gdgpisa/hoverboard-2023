@@ -59,7 +59,7 @@ const config: RollupOptions[] = [
             dest: 'dist',
           },
           {
-            src: 'public/manifest.json',
+            src: 'public/manifest.webmanifest',
             dest: 'dist',
             transform: compileBufferTemplate,
           },

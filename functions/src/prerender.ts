@@ -27,7 +27,7 @@ const staticHtml = `
     <link href="https://devfest.gdgpisa.it/" rel="canonical">
     <link href="images/favicon.ico" rel="icon">
     <meta content="#34a853" name="theme-color">
-    <link href="manifest.json" rel="manifest">
+    <link href="manifest.webmanifest" rel="manifest">
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta content="yes" name="mobile-web-app-capable">
@@ -170,8 +170,8 @@ app.get('*', async (req, res) => {
         if (data.name) {
           updateOgTitle($, `${data.name} - Speaker at GDG Pisa DevFest 2023`);
           // console.log(
-            // '### og:title updated to ',
-            // `${data.name} - Speaker at GDG Pisa DevFest 2023`
+          // '### og:title updated to ',
+          // `${data.name} - Speaker at GDG Pisa DevFest 2023`
           // );
         }
         if (data.bio) {
@@ -191,8 +191,8 @@ app.get('*', async (req, res) => {
         if (data.title) {
           updateOgTitle($, `${data.title} - Session at GDG Pisa DevFest 2023`);
           // console.log(
-            // '### og:title updated to ',
-            // `${data.title} - Session at GDG Pisa DevFest 2023`
+          // '### og:title updated to ',
+          // `${data.title} - Session at GDG Pisa DevFest 2023`
           // );
         }
         if (data.description) {
