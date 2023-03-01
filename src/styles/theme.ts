@@ -28,12 +28,12 @@ export const theme = css`
     --animation: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --slide-animation: 0.4s cubic-bezier(0, 0, 0.2, 1);
     --border-radius: 4px;
-    --box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%),
-      0 1px 3px 0 rgb(0 0 0 / 12%);
-    --box-shadow-primary-color: 0 3px 3px -2px rgb(103 58 183 / 30%),
-      0 3px 4px 0 rgb(103 58 183 / 30%), 0 1px 8px 0 rgb(103 58 183 / 30%);
-    --box-shadow-primary-color-hover: 0 1px 3px -2px rgb(103 58 183 / 40%),
-      0 4px 5px 0 rgb(103 58 183 / 40%), 0 2px 9px 0 rgb(103 58 183 / 40%);
+    --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    --box-shadow-hover: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    --box-shadow-primary-color: 0 10px 20px rgba(52, 136, 69, 0.19),
+      0 6px 6px rgba(52, 136, 69, 0.23);
+    --box-shadow-primary-color-hover: 0 14px 28px rgba(52, 136, 69, 0.25),
+      0 10px 10px rgba(52, 136, 69, 0.22);
     --font-family: -apple-system, blinkmacsystemfont, 'Segoe UI', roboto, helvetica, arial,
       sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
     --font-family-highlight: 'Product Sans', roboto, arial, sans-serif, -apple-system;
@@ -221,10 +221,14 @@ export const theme = css`
 
   .card {
     background-color: var(--default-background-color);
-    box-shadow: var(--box-shadow);
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.07), 0 2px 2px 0 rgba(0, 0, 0, 0.15);
     border-radius: var(--border-radius);
     transition: box-shadow var(--animation);
     cursor: pointer;
+  }
+
+  .card:hover {
+    box-shadow: var(--box-shadow-hover);
   }
 
   .tag {
@@ -243,10 +247,6 @@ export const theme = css`
     .container,
     .container-narrow {
       padding: 32px;
-    }
-
-    .card:hover {
-      box-shadow: var(--box-shadow);
     }
   }
 `;
