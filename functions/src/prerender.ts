@@ -146,8 +146,8 @@ app.get('*', async (req, res) => {
       const content = await getContent('blog', requestPath);
       const data = content?.data();
       if (content && data) {
-        if (data.image) {
-          updateOgImage($, siteDomain + data.image);
+        if (data.ogImage) {
+          updateOgImage($, siteDomain + data.ogImage);
           // console.log('### og:image updated to ', siteDomain + data.image);
         }
         if (data.title) {
