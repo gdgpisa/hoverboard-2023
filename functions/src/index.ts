@@ -16,7 +16,18 @@ import { scheduleNotifications } from './schedule-notifications.js';
 // - "noImplicitReturns": true,
 // - "strict": true,
 
-initializeApp();
+const firebaseConfig = {
+  apiKey: 'AIzaSyDtUiHI2_UEKpQ-7oes6yV_UxDv8v85Wnk',
+  authDomain: 'devfest-pisa23.firebaseapp.com',
+  databaseURL: 'https://devfest-pisa23-default-rtdb.europe-west1.firebasedatabase.app',
+  projectId: 'devfest-pisa23',
+  storageBucket: 'devfest-pisa23.appspot.com',
+  messagingSenderId: '570358773949',
+  appId: '1:570358773949:web:addadc7108271e95709fd4',
+  measurementId: 'G-P9W7BKE2LV',
+};
+
+initializeApp(firebaseConfig);
 
 export {
   sendGeneralNotification,
