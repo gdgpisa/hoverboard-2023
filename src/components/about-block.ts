@@ -22,10 +22,10 @@ export class AboutBlock extends ThemedElement {
         }
 
         .statistics-block {
-          width: 100%;
-          display: grid;
-          grid-gap: 32px 16px;
-          grid-template-columns: repeat(2, 1fr);
+          width: 50%;
+          display: flex;
+          flex-wrap: wrap;
+          gap: 32px;
         }
 
         .numbers {
@@ -44,18 +44,24 @@ export class AboutBlock extends ThemedElement {
           margin-top: 4px;
         }
 
-        @media (min-width: 640px) {
-          .content {
-            grid-gap: 64px;
-            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-          }
+        .item {
+          width: 40%;
+        }
 
+        @media (min-width: 640px) {
           .statistics-block {
-            grid-gap: 32px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px;
           }
 
           .numbers {
             font-size: 56px;
+          }
+
+          .item {
+            width: 40%;
           }
         }
       `,
@@ -65,7 +71,7 @@ export class AboutBlock extends ThemedElement {
   override render() {
     return html`
       <div class="container">
-        <div>
+        <div class="title-block">
           <h1 class="container-title">${aboutBlock.title}</h1>
           <p>${aboutBlock.callToAction.featuredSessions.description}</p>
           <a
