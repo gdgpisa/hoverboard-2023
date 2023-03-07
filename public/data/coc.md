@@ -35,10 +35,7 @@ This policy is based on and influenced by several other community policies inclu
 
 ### Report incident
 
-To report an incident look for a staff member by badge/attire or contact our incident response team below:
-{% for contact in codeOfConductBlock.contacts %}
-
-- {{ contact }}{% endfor %}
+To report an incident look for a staff member by badge/attire or contact us directly at [pisagdg@gmail.com](mailto:pisagdg+coc@gmail.com).
 
 #### Anonymous report
 
