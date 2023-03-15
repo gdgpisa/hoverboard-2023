@@ -56,9 +56,9 @@ Yes, we have some swags for all the participants + some giveaways to give as a r
 
 No, we are not recording/live-streaming the sessions.
 
-<!-- ### What is the Job Wall? -->
+### What is the Job Board? -->
 
-<!-- The job wall is a pin board where you're free to post your job openings. Rules for the Job wall are here: [Introducing the Job Wall](/blog/posts/introducing-the-job-wall/). -->
+The job board is a pin board where you're free to post your job openings. Rules for the Job board are here: [Introducing the Job Wall](/blog/posts/introducing-the-job-board).
 
 <!-- ### What is the Beer Party? -->
 
