@@ -11,7 +11,7 @@ As mentioned, the agenda is not finalized yet and we'll share more content in th
 We are really happy to welcome on stage those speakers and sessions:
 
 - [**Barry Pollard**](/speakers/barry_pollard/) (Google - Cork 🇮🇪) - [Top Recommendations for 2023 to speed up your website and pass the Core Web Vitals](/sessions/top_recommendations_for_2023_to_speed_up_your_website_and_pass_the_core_web_vitals)
-- [**Wajahat Karim**](/speakers/wajahat_karim/) (Android GDE - Karachi 🇵🇰) - [A tech talk on generative AI art with Android in mix, detailed, 8k, -no blur](/sessions/a_tech_talk_on_generative_ai_art_with_android_in_mix_detailed_8k_-no_blur)
+- [**Wajahat Karim**](/speakers/wajahat_karim/) (Android GDE - Karachi 🇵🇰) - [A tech talk on generative AI art with Android in mix, detailed, 8k, -no blur](/sessions/a_tech_talk_on_generative_ai_art_with_android_in_mix_detailed_8k_-no_blur) - UPDATE: Talk cancelled due to speakers travel difficulties.
 - [**Dominik Šimoník**](/speakers/dominik_simonik) (Firebase GDE - Ostrava 🇨🇿) - [Notifications - Keeping your user engaged](/sessions/notifications_-_keeping_your_user_engaged)
 - [**Aleksandr Denisov**](/speakers/aleksandr_denisov) (Flutter & Dart GDE - Berlin 🇩🇪) - [Building Flutter app for everyone](/sessions/building_flutter_app_for_everyone)
 - [**Carlo Lucera**](/speakers/carlo_lucera) (Flutter GDE - Palermo 🇮🇹) - [Flutter Everywhere! the importance of adaptive layout](/sessions/flutter_everywhere_the_importance_of_adaptive_layout)
