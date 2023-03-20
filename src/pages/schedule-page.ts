@@ -9,7 +9,6 @@ import '../elements/filter-menu';
 import '../elements/header-bottom-toolbar';
 import '../elements/shared-styles';
 import '../elements/sticky-element';
-import '../elements/disclaimer-block';
 import { Filter } from '../models/filter';
 import { FilterGroup } from '../models/filter-group';
 import { RootState, store } from '../store';
@@ -72,8 +71,6 @@ export class SchedulePage extends ReduxMixin(PolymerElement) {
           <header-bottom-toolbar location="[[location]]"></header-bottom-toolbar>
         </sticky-element>
       </hero-block>
-
-      <disclaimer-block></disclaimer-block>
 
       <paper-progress indeterminate hidden$="[[!pending]]"></paper-progress>
 
