@@ -14,7 +14,7 @@ export class CallForPaperBlock extends PolymerElement {
           display: flex;
           width: 100%;
           // background: var(--default-primary-color);
-          background: #34a853;
+          background: #f9bb04;
           color: var(--text-primary-color);
           padding: 16px 0;
         }
@@ -25,15 +25,15 @@ export class CallForPaperBlock extends PolymerElement {
       </style>
 
       <div class="container container-narrow">
-        <h1 class="container-title">🎟️ Make sure you get your ticket!</h1>
+        <h1 class="container-title">⚠️ Join the waiting list</h1>
         <p>
-          Tickets are close to run out, so make sure you get yours before it's too late!
-          We'll start the waiting list as soon as we run out of tickets.
+          Oops. We're sold out. But you can still join the waiting list! We'll let you know as soon
+          as a spot for you frees up.
         </p>
         <a href="https://bit.ly/dfpi23-tickets">
           <div class="cta-button">
             <paper-button primary invert class="icon-right">
-              <span class="cta-label">Get a ticket</span>
+              <span class="cta-label">Join the list</span>
             </paper-button>
           </div>
         </a>

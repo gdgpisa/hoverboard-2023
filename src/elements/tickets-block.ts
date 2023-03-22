@@ -237,6 +237,6 @@ export class TicketsBlock extends ReduxMixin(PolymerElement) {
   }
 
   private getButtonText(available: boolean) {
-    return available ? buyTicket : this.ticketsBlock.notAvailableYet;
+    return available ? "Join the list" : this.ticketsBlock.notAvailableYet;
   }
 }
