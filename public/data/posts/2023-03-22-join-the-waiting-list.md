@@ -1,6 +1,6 @@
 Oh no... you missed it!
 
-We're happy to announce that **all tickets** for DevFest Pisa 2021 are **sold out**! 🎉
+We're happy to announce that **all tickets** for DevFest Pisa 2023 are **sold out**! 🎉
 That's so exciting to see that our event in such an high demand!
 
 Sadly due to capacity, we're not able to accept any more registrations at this point.
