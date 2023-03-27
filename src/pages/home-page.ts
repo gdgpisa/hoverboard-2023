@@ -9,6 +9,7 @@ import { HeroBlock } from '../components/hero/hero-block';
 import '../elements/about-organizer-block';
 import '../elements/featured-videos';
 import '../elements/call-for-paper-block';
+import '../elements/podcast-embed-block';
 import '../elements/gallery-block';
 import '../elements/latest-posts-block';
 import '../elements/map-block';
@@ -254,6 +255,7 @@ export class HomePage extends ReduxMixin(PolymerElement) {
       <gallery-block></gallery-block>
       <about-organizer-block></about-organizer-block>
       <latest-posts-block></latest-posts-block>
+      <podcast-embed-block></podcast-embed-block>
       <map-block></map-block>
       <partners-block></partners-block>
       <footer-block></footer-block>
