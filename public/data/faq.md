@@ -24,9 +24,9 @@ No, you can use <!--the [Eventbrite app](https://play.google.com/store/apps/deta
 
 You can come even if you're in the waiting list, but we can't assure you will get a spot :( We will release tickets of people that don't show up during day so you may have a chance to get in, but this is out of our control, and we can't tell you in advance if you'll get a place.
 
-### Can I give my ticket to someone else?
+### Can I give my ticket to a friend?
 
-Yes, but you need to tell us about this, and we will take care of voiding your tickets and emitting a new one to your friend/relative.
+Sadly this is not possible. If you're not planning to come, please cancel your ticket and ask your friend to register themselves for a new ticket.
 
 ### Can I leave the conference and come back later?
 
