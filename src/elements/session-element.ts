@@ -193,13 +193,12 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
             <iron-icon
               icon="hoverboard:insert-comment"
               class="feedback-action"
-              hidden="[[!acceptingFeedback()]]"
+              hidden="true"
               on-click="toggleFeedback"
             ></iron-icon>
             <iron-icon
               icon="hoverboard:[[icon]]"
               class="bookmark-session"
-              hidden="[[acceptingFeedback()]]"
               on-click="toggleFeaturedSession"
             ></iron-icon>
           </div>
