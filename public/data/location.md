@@ -1,8 +1,8 @@
 ## How to get there 🚶‍♂️
 
-The conference will take place at the **University of Pisa** in the **Polo Fibonacci**. Pisa is a small town, and you can easily walk around or rely on public transportation if you're coming from far away.
+The conference will take place at the **University of Pisa** in the [**Polo Fibonacci**](https://goo.gl/maps/HSKTMj4QBjvdff53A). Pisa is a small town, and you can easily walk around or rely on public transportation if you're coming from far away.
 
-The address of the venue is: **Largo Bruno Pontecorvo, 3, 56127 Pisa PI**
+The address of the venue is: [**Largo Bruno Pontecorvo, 3, 56127 Pisa PI**](https://goo.gl/maps/HSKTMj4QBjvdff53A)
 
 ## By train 🚄
 

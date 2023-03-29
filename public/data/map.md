@@ -1,6 +1,6 @@
 Make sure you don't get lost. Here you can find a map of the venue's buildings. 
 
-Please note that DevFest Pisa 2019 rooms are in **two different buildings**:
+Please note that DevFest Pisa 2023 rooms are in **two different buildings**:
 
 ## Building E
 
