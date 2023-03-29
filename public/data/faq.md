@@ -14,11 +14,11 @@ Yes, participation to the DevFest is **free**, but registration is **mandatory**
 
 ### I can't attend the DevFest, what should I do?
 
-If you **can't attend** we kindly ask you to **cancel your order** via the GDG platform, or either send us an email (we can do it for you). <!--The event is currently Sold-out and we have a lot of people in the waiting list.--> You will free-up a spot for someone else :)
+If you **can't attend** we kindly ask you to **cancel your order** via the GDG platform, or either send us an email (we can do it for you). The event is currently Sold-out and we have a lot of people in the waiting list. You will free-up a spot for someone else :)
 
 ### Do I need to print my tickets?
 
-No, you can use <!--the [Eventbrite app](https://play.google.com/store/apps/details?id=com.eventbrite.attendee)-->your smartphone to show us the ticket. Showing the ticket email with the QR code is also enough. Please make sure to have your ticket ready to do not slow down the check-in process.
+No, you can use your smartphone to show us the ticket. Showing the ticket email with the QR code is also enough. Please make sure to have your ticket ready to do not slow down the check-in process.
 
 ### Should I come even if I'm still on the waiting list?
 
