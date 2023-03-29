@@ -44,6 +44,11 @@
       "label": "Location"
     },
     {
+      "route": "map",
+      "permalink": "/map",
+      "label": "Map"
+    },
+    {
       "route": "faq",
       "permalink": "/faq",
       "label": "Faq"
@@ -108,6 +113,15 @@
       "title": "FAQs",
       "metaDescription": "Find you answer right here!",
       "description": "Please find in this page, all the answers to the Frequently Asked Questions about DevFest Pisa 2023",
+      "background": {
+        "color": "#fff"
+      },
+      "fontColor": "#424242"
+    },
+    "map": {
+      "title": "Map",
+      "metaDescription": "Discover the map of our venue",
+      "description": "Please find in this page a map to conviniently find the rooms of DevFest Pisa",
       "background": {
         "color": "#fff"
       },

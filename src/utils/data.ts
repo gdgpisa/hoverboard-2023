@@ -49,6 +49,7 @@ export {
   image,
   viewHighlights,
   locationPage,
+  mapPage,
 } from '../../public/data/resources.json';
 export {
   contentLoaders,

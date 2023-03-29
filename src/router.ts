@@ -172,6 +172,13 @@ const ROUTES: Route[] = [
     },
   },
   {
+    path: '/map',
+    component: 'map-page',
+    action: async () => {
+      await import('./pages/map-page.js');
+    },
+  },
+  {
     path: '(.*)',
     component: 'not-found-page',
     action: async () => {
