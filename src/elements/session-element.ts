@@ -207,6 +207,7 @@ export class SessionElement extends ReduxMixin(PolymerElement) {
         <div class="session-footer">
           <div layout horizontal justified center-aligned>
             <div class="session-meta" flex>
+              <span>[[session.track.title]]</span></br>
               <span hidden$="[[!session.duration.hh]]">
                 [[session.duration.hh]] hour[[getEnding(session.duration.hh)]]
               </span>
