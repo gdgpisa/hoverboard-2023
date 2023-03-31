@@ -54,14 +54,19 @@ const sendPushNotificationToUsers = async (userIds: string[], payload: Messaging
   });
 
   const usersTokens: DocumentSnapshot<DocumentData>[] = await Promise.all(tokensPromise);
-  const tokensToUsers = usersTokens.reduce((aggregator, userTokens) => {
+  const tokensToUsers: any = usersTokens.reduce((aggregator, userTokens) => {
     if (!userTokens.exists) return aggregator;
     const { tokens } = userTokens.data();
     return { ...aggregator, tokens };
   }, {});
-  const tokens = Object.keys(tokensToUsers);
+  const tokens = Object.keys(tokensToUsers.tokens);
 
   const tokensToRemove = {};
+
+  console.info('### sending payload');
+  console.info(payload);
+  console.info(tokens);
+
   const messagingResponse = await getMessaging().sendToDevice(tokens, payload);
   messagingResponse.results.forEach((result, index) => {
     const error = result.error;
@@ -123,10 +128,11 @@ export const scheduleNotifications = functions.pubsub
       );
       const usersIdsSnapshot = await getFirestore().collection('featuredSessions').get();
 
-      upcomingSessions.forEach(async (upcomingSession, sessionIndex) => {
+      upcomingSessions.sessions.forEach(async (upcomingSession, sessionIndex) => {
+        const sessionSlug = upcomingSession.items[0];
         const sessionInfoSnapshot = await getFirestore()
           .collection('sessions')
-          .doc(upcomingSession)
+          .doc(sessionSlug)
           .get();
         if (!sessionInfoSnapshot.exists) return undefined;
 
@@ -138,7 +144,7 @@ export const scheduleNotifications = functions.pubsub
         const userIdsFeaturedSession = Object.keys(usersIds).filter(
           (userId) =>
             !!Object.keys(usersIds[userId]).filter(
-              (sessionId) => sessionId.toString() === upcomingSession.toString()
+              (sessionId) => sessionId.toString() === sessionSlug
             ).length
         );
 
@@ -155,7 +161,7 @@ export const scheduleNotifications = functions.pubsub
               title: session.title,
               body: `Starts ${fromNow}`,
               icon: notificationsConfig.icon,
-              path: `/sessions/${upcomingSessions[sessionIndex]}`,
+              path: `/sessions/${sessionSlug}`,
             },
           };
 
