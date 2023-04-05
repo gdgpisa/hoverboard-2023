@@ -1,5 +1,3 @@
-Title: What information must a good tech job posting absolutely contain?
-
 Hi all,
 Today we'd like to share with you an initiative from on of our supportner and partner, [Tech Jobs Fair](https://techjobslist.com/):
 
