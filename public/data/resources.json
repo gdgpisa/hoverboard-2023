@@ -121,31 +121,31 @@
     "contacts": []
   },
   "aboutBlock": {
-    "title": "DevFest Pisa is coming back in town in 2023!",
+    "title": "DevFest Pisa 2023 is over!",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG Pisa is happy to announce that DevFest Pisa is coming back! You can enjoy a one-day conference all about Android, Web, Cloud and Google technologies in the heart of Tuscany.",
+        "description": "After 3 years, GDG Pisa is happy to announce that DevFest Pisa is coming back in town! You can enjoy a one-day conference all about Android, Web, Cloud and Google technologies in the heart of Tuscany.",
         "label": "READ THE FULL ANNOUNCEMENT",
         "link": "https://2023.devfest.gdgpisa.it/blog/c4p"
       },
       "howItWas": {
-        "description": "DevFest Pisa 2019 was awesome! Check out the video recap and make sure you don't miss it this year!",
-        "label": "SEE THE VIDEO RECAP",
-        "youtubeId": "h5d-EOTWOOU"
+        "description": "The conference was a blast! Check out the video recap and make sure you don't miss it next year!",
+        "label": "DevFest Pisa 2023 Video Recap",
+        "youtubeId": "HOvwmfNEw1I"
       }
     },
     "statisticsBlock": {
       "attendees": {
         "label": "Attendees",
-        "number": "400+"
+        "number": "500+"
       },
       "days": {
         "label": "Speakers",
-        "number": "40+"
+        "number": "45+"
       },
       "sessions": {
         "label": "Sessions",
-        "number": "40+"
+        "number": "45+"
       },
       "tracks": {
         "label": "Tracks",

@@ -42,20 +42,15 @@ export class CallForPaperBlock extends PolymerElement {
       </style>
 
       <div class="container container-narrow">
-        <h1 class="container-title">DevFest Pisa is Today 🎉</h1>
+        <h1 class="container-title">It's a Wrap 💚</h1>
         <p>
-          You can check the schedule directly on the website to find your talk. If you're liking the
-          even, make sure to leave us a feedback!
+          DevFest Pisa 2023 is over, but you can relieve the best moments of the conference with our
+          videos and photos:
         </p>
         <div class="action-buttons" layout horizontal wrap>
-          <a href="/schedule">
+          <a href="/blog/its-a-wrap">
             <paper-button primary invert class="icon-right">
-              <span class="cta-label">See the schedule</span>
-            </paper-button>
-          </a>
-          <a href="https://gdgpisa.it/feedbackform/">
-            <paper-button class="icon-right" primary invert>
-              <span class="cta-label">Leave a feedback</span>
+              <span class="cta-label">Check the recap blogpost</span>
             </paper-button>
           </a>
         </div>
